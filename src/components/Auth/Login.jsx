@@ -6,7 +6,10 @@ const Login = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    console.log("Form Submitted");
+    console.log("Email is: ",email);
+    console.log("Password is: ",password);
+    setEmail("")
+    setPassword("")
   };
   return (
     <div className="min-h-screen min-w-screen flex justify-center items-center">
@@ -35,7 +38,6 @@ const Login = () => {
                 setPassword(e.target.value)
             }}
           />
-          {console.log(email,password)}
           <button
             className="w-full py-2 px-3 rounded-full text-xl outline-none bg-emerald-600 cursor-pointer"
             type="submit"
