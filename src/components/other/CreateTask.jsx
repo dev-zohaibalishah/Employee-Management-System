@@ -29,6 +29,7 @@ const CreateTask = () => {
           </div>
           <div>
             <h3 className="text-sm text-gray-300 mb-0.5">Category</h3>
+            
             <input
               className="text-sm py-2 px-4 rounded outline-none bg-transparent border-[1px] border-gray-400 mb-4 w-3/5"
               type="text"
